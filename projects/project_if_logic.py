@@ -47,19 +47,19 @@ while weekly_income != 0:
          
 
         if (0000 <= ssn <= 1999):
-            print(f"Hi {name}  Please file your unemployment claim on ***SUNDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov. Your estimated weekly unemployment payment will be ${unemployment_payment}")
+            print(f"Hi {name}  Please file your unemployment claim on ***SUNDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov.\n Your estimated weekly unemployment payment will be ${unemployment_payment}")
             break
         elif  (2000 <= ssn <= 3999):
-            print(f"Hi {name}! Please file your unemployment claim on ***MONDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov. Your estimated weekly unemployment payment will be ${unemployment_payment} ")
+            print(f"Hi {name}! Please file your unemployment claim on ***MONDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov.\n Your estimated weekly unemployment payment will be ${unemployment_payment} ")
             break
         elif  (4000 <= ssn <= 5999):
-            print(f"Hi {name}! Please file your unemployment claim on ***TUESDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov. Your estimated weekly unemployment payment will be ${unemployment_payment} ")
+            print(f"Hi {name}! Please file your unemployment claim on ***TUESDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov.\n Your estimated weekly unemployment payment will be ${unemployment_payment} ")
             break
         elif  (6000 <= ssn <= 7999):
-            print(f"Hi {name}!  Please file your unemployment claim on ***WEDNESDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov. Your estimated weekly unemployment payment will be ${unemployment_payment} ")
+            print(f"Hi {name}!  Please file your unemployment claim on ***WEDNESDAY*** between 8a.m and 5p.m on on www.myunemployment.nj.gov.\n Your estimated weekly unemployment payment will be ${unemployment_payment} ")
             break
         elif  (8000 <= ssn <= 9999):
-            print(f"Hi {name}! Please file your unemployment claim on ***THURSDAY***  between 8a.m and 5p.m on on www.myunemployment.nj.gov. Your estimated weekly unemployment payment will be ${unemployment_payment}")
+            print(f"Hi {name}! Please file your unemployment claim on ***THURSDAY***  between 8a.m and 5p.m on on www.myunemployment.nj.gov.\n Your estimated weekly unemployment payment will be ${unemployment_payment}")
             break
         else:              
             print("Please enter a valid social security number in XXXX format. Number must be between 0001 and 9999 !")
