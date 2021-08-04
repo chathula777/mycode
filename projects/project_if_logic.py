@@ -14,16 +14,15 @@ name = input("Please enter your Name: \n").title()
 residence = input("Have you maintained your permanent home in New Jersey for more than 12 months? Please Enter Yes or No  \n").title()
 
 while residence != "Yes" or residence != "No":
-    print("Please enter Yes or No")
+   
     break
-residence = input("Have you maintained your permanent home in New Jersey for more than 12 months? Please Enter Yes or No  \n").title()
+    residence = input("Have you maintained your permanent home in New Jersey for more than 12 months? Please Enter Yes or No  \n").title()
 
 if residence == "No":
     print(f"Hi {name}! You do not qualify for New Jersey Unemployment Payments at this time. Please check with us again in the future.")
     exit()
 else:
     print('''
-
    ***********************************************************************************
    *                                                                                 *
    * Please check our latest schedule for cerifying for your unexmployment benefits  *
@@ -65,5 +64,4 @@ while weekly_income != 0:
             print("Please enter a valid social security number in XXXX format. Number must be between 0001 and 9999 !")
             break
     
-
 
