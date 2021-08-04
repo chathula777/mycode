@@ -13,6 +13,11 @@ name = input("Please enter your Name: \n").title()
 
 residence = input("Have you maintained your permanent home in New Jersey for more than 12 months? Please Enter Yes or No  \n").title()
 
+while residence != "Yes" or residence != "No":
+    print("Please enter Yes or No")
+    break
+residence = input("Have you maintained your permanent home in New Jersey for more than 12 months? Please Enter Yes or No  \n").title()
+
 if residence == "No":
     print(f"Hi {name}! You do not qualify for New Jersey Unemployment Payments at this time. Please check with us again in the future.")
     exit()
